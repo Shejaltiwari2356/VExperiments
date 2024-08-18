@@ -34,13 +34,14 @@ header {
   text-align: center;
   border-bottom: 4px solid #004085;
   margin-bottom: 20px;
+  height: 315px;
 }
 
 header .logo {
-  width: 260px;
-  height: 270px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 /* Navigation Styles */
