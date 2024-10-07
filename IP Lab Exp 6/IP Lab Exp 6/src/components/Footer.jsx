@@ -1,13 +1,15 @@
 import React from 'react';
-import './Footer.css'; // Component-specific CSS
+import './Footer.css'; // Updated CSS for full-width footer
 
 const Footer = () => {
   return (
-    <footer className="footer bg-dark text-white text-center py-3">
+    <footer className="footer">
       <div className="container">
         <p>&copy; 2024 College Name. All rights reserved.</p>
-        <a href="#" className="text-white">Privacy Policy</a> | 
-        <a href="#" className="text-white">Terms of Service</a>
+        <div className="footer-links">
+          <a href="#" className="footer-link">Privacy Policy</a> | 
+          <a href="#" className="footer-link">Terms of Service</a>
+        </div>
       </div>
     </footer>
   );

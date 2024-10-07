@@ -1,13 +1,13 @@
 import React from 'react';
-import './HeroSection.css'; // Component-specific CSS
+import './HeroSection.css'; // Enhanced with better visuals
 
 const HeroSection = () => {
   return (
     <section className="hero-section">
-      <div className="container">
+      <div className="hero-content">
         <h1>Welcome to VESIT</h1>
         <p>Your Future Starts Here</p>
-        <a href="#" className="btn btn-primary btn-lg">Explore Programs</a>
+        <a href="#" className="btn-primary">Explore Programs</a>
       </div>
     </section>
   );
