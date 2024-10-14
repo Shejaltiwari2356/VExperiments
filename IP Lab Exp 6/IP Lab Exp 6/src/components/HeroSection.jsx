@@ -4,6 +4,8 @@ import './HeroSection.css'; // Enhanced with better visuals
 const HeroSection = () => {
   return (
     <section className="hero-section">
+      <div></div>
+      
       <div className="hero-content">
         <h1>Welcome to VESIT</h1>
         <p>Your Future Starts Here</p>

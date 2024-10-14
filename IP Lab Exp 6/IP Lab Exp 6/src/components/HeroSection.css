@@ -1,35 +1,26 @@
 .hero-section {
+  background-image: url('https://mycareerrise.allegiance-educare.in/storage/uploads/colleges/1662553710campus%20front.jpg');
+  background-size: cover;
+  background-position: center;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/path-to-your-image.jpg') center/cover no-repeat;
+  /* Full height */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 
 .hero-content {
   text-align: center;
-  max-width: 600px;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  font-weight: bold;
-}
-
-.hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
+  color: white;
+  /* Adjust text color if needed */
 }
 
 .btn-primary {
+  padding: 10px 20px;
   background-color: #007bff;
   color: white;
-  padding: 0.75rem 2rem;
   text-decoration: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
 }
 
 .btn-primary:hover {
